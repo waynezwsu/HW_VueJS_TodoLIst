@@ -13,9 +13,9 @@ const props = defineProps({
 const toggleHandler = () => {
   emits('toggleDone', props.list.id);
 };
-const emits = defineEmits(['remove-item','toggleDone'])
+const emits = defineEmits(['removeitem','toggleDone'])
 const remove = () => {
-  emits('remove-item', props.list.id)
+  emits('removeitem', props.list.id)
 }
 </script>
 
