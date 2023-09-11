@@ -1,5 +1,5 @@
 <script setup>
-import Todo_add from "./components/Todo_add.vue"
+import Todo_add from "./components/addtodo.vue"
 import { v4 as uuidv4 } from 'uuid'
 import { ref,reactive } from 'vue'
 let NewTodoList = ref('')
